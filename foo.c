@@ -1,6 +1,8 @@
 #include <winsock2.h> // Include the necessary header file
 
 #include <stddef.h>
+#include <process.h>
+
 void func()
 {
     char dataBuffer[100] = "dir ";
